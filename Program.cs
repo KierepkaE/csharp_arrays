@@ -17,6 +17,8 @@ namespace BuiltInMethods {
 
       var number = new int[3] { 1, 2, 3 };
       string list = string.Join (",", numbers);
+      string name = "John";
+      char firstChar = name[0];
     }
 
     Array.Sort (summerStrut);
