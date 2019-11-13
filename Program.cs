@@ -14,6 +14,9 @@ namespace BuiltInMethods {
 
       string t = Array.Find (summerStrut, title => title.Length > 10);
       Console.WriteLine ($"The first song that has more than 10 characters in the title is {t}");
+
+      var number = new int[3] { 1, 2, 3 };
+      string list = string.Join (",", numbers);
     }
 
     Array.Sort (summerStrut);
